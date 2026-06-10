@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tenant SMS Communication Consent — Granite Oak Holdings LLC</title>
+<meta name="description" content="How Granite Oak Holdings LLC collects consent for text message communications with tenants, and our SMS messaging policy.">
+<style>
+  :root{
+    --granite:#2b2f33;
+    --granite-dark:#1e2225;
+    --oak:#b07d3f;
+    --oak-light:#d9a662;
+    --stone:#f4f1ec;
+    --ink:#33373b;
+    --muted:#6b7077;
+    --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--stone);line-height:1.6}
+
+  header{
+    position:sticky;top:0;z-index:10;
+    background:var(--granite-dark);color:var(--white);
+    display:flex;justify-content:space-between;align-items:center;
+    padding:0.9rem 6vw;
+  }
+  .logo{display:flex;align-items:center;gap:0.7rem;text-decoration:none;color:var(--white)}
+  .logo-mark{
+    width:40px;height:40px;border:2px solid var(--oak-light);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;color:var(--oak-light);
+    letter-spacing:0.5px;font-size:0.95rem;
+  }
+  .logo-name{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+  .logo-name b{display:block;font-size:1.05rem;letter-spacing:0.08em;text-transform:uppercase}
+  .logo-name span{font-size:0.7rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--oak-light)}
+  nav a{
+    color:#d7d9db;text-decoration:none;margin-left:1.6rem;
+    font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:0.85rem;
+    letter-spacing:0.08em;text-transform:uppercase;
+  }
+  nav a:hover{color:var(--oak-light)}
+  nav .call{color:var(--oak-light);font-weight:600}
+
+  main{max-width:820px;margin:0 auto;padding:3.5rem 6vw 4.5rem}
+  .section-label{
+    font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:0.75rem;
+    letter-spacing:0.25em;text-transform:uppercase;color:var(--oak);
+    margin-bottom:0.6rem;
+  }
+  h1{font-size:2rem;font-weight:400;margin-bottom:1.4rem;color:var(--granite)}
+  h2{font-size:1.25rem;font-weight:400;color:var(--granite);margin:2.2rem 0 0.7rem}
+  p,li{font-size:1rem;color:var(--ink);margin-bottom:0.8rem}
+  ul{padding-left:1.3rem;margin-bottom:0.8rem}
+  .notice{
+    background:var(--white);border-left:3px solid var(--oak);
+    padding:1.2rem 1.4rem;margin:1.5rem 0;font-size:0.95rem;color:var(--muted);
+  }
+
+  .form-card{
+    background:var(--white);padding:2.2rem 2rem;margin-top:1.2rem;
+    border-top:3px solid var(--oak);box-shadow:0 1px 4px rgba(0,0,0,0.06);
+  }
+  .form-card h2{margin-top:0}
+  .field{margin-bottom:1.3rem}
+  .field label{
+    display:block;font-family:'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:0.3rem;
+  }
+  .field .line{border-bottom:1px solid var(--granite);height:1.6rem}
+  .checkbox-row{display:flex;gap:0.7rem;align-items:flex-start;margin:1.4rem 0}
+  .checkbox-row .box{
+    width:1.1rem;height:1.1rem;border:1.5px solid var(--granite);
+    flex-shrink:0;margin-top:0.25rem;
+  }
+  .sig-grid{display:grid;grid-template-columns:2fr 1.5fr 1fr;gap:1.5rem;margin-top:2.4rem}
+  @media(max-width:560px){.sig-grid{grid-template-columns:1fr}}
+  .print-btn{
+    display:inline-block;margin-top:1.6rem;padding:0.8rem 2rem;
+    background:var(--oak);color:var(--white);text-decoration:none;border:none;cursor:pointer;
+    font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-weight:600;letter-spacing:0.05em;font-size:1rem;
+  }
+  .print-btn:hover{background:var(--oak-light)}
+
+  footer{
+    background:var(--granite-dark);color:#8a8f95;text-align:center;
+    padding:1.5rem 6vw;border-top:1px solid #3a3f44;
+    font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:0.8rem;
+  }
+  footer a{color:#b9bdc2;text-decoration:none;margin:0 0.5rem}
+  footer a:hover{color:var(--oak-light)}
+
+  @media print{
+    header,footer,.print-btn,.notice{display:none}
+    body{background:var(--white)}
+    main{padding:0;max-width:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">
+    <div class="logo-mark">GO</div>
+    <div class="logo-name"><b>Granite Oak Holdings</b><span>Property Management</span></div>
+  </a>
+  <nav>
+    <a href="/#services">Services</a>
+    <a href="/#about">About</a>
+    <a href="/#contact">Contact</a>
+    <a class="call" href="tel:+18773781901">(877) 378-1901</a>
+  </nav>
+</header>
+
+<main>
+  <div class="section-label">Tenant Communications</div>
+  <h1>SMS / Text Message Communication Consent</h1>
+
+  <p>Granite Oak Holdings LLC uses text (SMS) messages to communicate with tenants and authorized property contacts about lease administration and billing matters, including:</p>
+  <ul>
+    <li>Monthly rent invoices and payment reminders</li>
+    <li>Estimated and reconciled CAM (common area maintenance) charge notices</li>
+    <li>Billing and invoicing questions</li>
+    <li>Property maintenance coordination</li>
+  </ul>
+
+  <h2>How consent is collected</h2>
+  <p>Tenants provide written consent by supplying a mobile phone number and signing the consent form below, which is included in lease agreements and tenant contact information packets. Phone numbers are never purchased or obtained from third parties, and are used only for the purposes described on this page.</p>
+
+  <h2>Message frequency, rates, and opting out</h2>
+  <p>Message frequency varies — typically 1–4 messages per month. Message and data rates may apply depending on your mobile carrier plan. Consent is not a condition of your lease. You may opt out at any time by replying <strong>STOP</strong> to any message, or reply <strong>HELP</strong> for assistance. Opt-out requests are honored immediately. Your phone number will not be sold or shared with third parties for marketing purposes.</p>
+
+  <div class="notice">
+    To enroll: print this form (or request a copy from our office), complete and sign it, and return it to the property management office. Questions? Call our 24/7 line at (877)&nbsp;378-1901.
+  </div>
+
+  <div class="form-card">
+    <h2>Tenant Communication Consent Form</h2>
+    <div class="field"><label>Tenant / Company Name</label><div class="line"></div></div>
+    <div class="field"><label>Authorized Contact Name</label><div class="line"></div></div>
+    <div class="field"><label>Leased Property Address</label><div class="line"></div></div>
+    <div class="field"><label>Mobile Phone Number</label><div class="line"></div></div>
+    <div class="field"><label>Email Address</label><div class="line"></div></div>
+
+    <div class="checkbox-row">
+      <div class="box"></div>
+      <p><strong>YES</strong>, I agree to receive text messages from Granite Oak Holdings LLC at the mobile number provided above regarding rent invoices, CAM charge notices, billing, and property maintenance. I understand message frequency varies (typically 1–4 per month), message and data rates may apply, and I can opt out at any time by replying STOP.</p>
+    </div>
+
+    <div class="sig-grid">
+      <div class="field"><label>Tenant Signature</label><div class="line"></div></div>
+      <div class="field"><label>Printed Name</label><div class="line"></div></div>
+      <div class="field"><label>Date</label><div class="line"></div></div>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">Print This Form</button>
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 Granite Oak Holdings LLC. All rights reserved.
+  <br>
+  <a href="/tenant-consent.html">SMS Communication Consent</a>
+</footer>
+
+</body>
+</html>
